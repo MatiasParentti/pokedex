@@ -11,12 +11,6 @@ body {
 .contenedor{
   display:grid;
   grid-template-columns: 1fr 1fr;
-height: 100vh;
- 
-}
-.header{
- 
- 
 }
 
 h3{
@@ -26,14 +20,10 @@ h3{
   font-weight: bold;
 }
 .personaje{
-  margin-bottom: 3rem;
-  
+  margin-bottom: 1rem;
+  margin-top: 4rem;
 }
 
-.pokedex_tops{
-  display: flex;
-  flex-direction: row;
-}
 .stats{
   margin-top: 5px;
 }
@@ -46,17 +36,35 @@ ul{
   
 }
 .footer{
- 
-  position: relative;
+  position:relative;
   bottom: 0;
   width: 100%;
-  
- 
+}
+img{
+  width: 150px;
+}
+.btns{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 @media (max-width:900px){
   .contenedor{
      display: inline;
-     height: 50vw;
+     
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .nes-pokeball {
+    animation: Rotar infinite 10s alternate;
+  }
+}
+
+@keyframes Rotar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }

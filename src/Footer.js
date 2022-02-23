@@ -4,7 +4,7 @@ import React from 'react';
 const Footer = () => {
 
     return (
-        <section class="nes-container is-dark">
+        <section class="nes-container is-dark footer">
              
 
             <section class="message-list">
