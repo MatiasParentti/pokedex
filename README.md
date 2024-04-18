@@ -8,7 +8,7 @@ Simple demo desarrollada en React con consumicion de api de pokemon.
 
 ## Screenshots
 
-![App Screenshot](https://i.postimg.cc/G378rmsL/pok.webp)
+![App Screenshot](https://i.postimg.cc/ncF87j47/Captura-de-pantalla-2024-03-14-164225.png)
 
 
 
